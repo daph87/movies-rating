@@ -1,0 +1,23 @@
+/* Website layout built with grid */
+.layout {
+    height: 100%;
+    box-sizing: border-box;
+    display: grid;
+    background-color: rgba(129, 4, 4, 0.9);
+    grid-template-rows: 12% 88%;
+    grid-template-columns: repeat(12, 1fr);
+    overflow: auto;
+  }
+  .layout >header{
+        grid-column: span 12;
+    }
+   
+  .layout>main{
+        grid-column: span 12;
+  }
+       
+        
+    
+  
+  
+  

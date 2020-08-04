@@ -1,0 +1,39 @@
+/* Design of ratings stars */
+
+.checked {
+  color: orange;
+  background-color: none;
+  z-index: 10;
+}
+
+.unchecked {
+  color: white;
+}
+span {
+  background-color: none;
+}
+
+/* Bootstrap card */
+.card-text {
+  font-size: 20px;
+}
+.card-title {
+  text-align: center;
+}
+
+.movie-details {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.movie-card {
+  display: flex;
+  justify-content: center;
+  width: 350px;
+}
+
+.card {
+  width: 14rem;
+}
